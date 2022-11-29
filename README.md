@@ -103,3 +103,13 @@ application.
         - home: 첫화면에어떤 내용을 표시할지 정의
 
 
+##### 위젯(widget)
+- 상태연결 기반으로 stateless와 statefull 2가지로 구분
+    - stateless
+        - 정적
+        - 앱에서 지속적으로 상태를 감시할 필요가 없다
+        - API 통신이나, 버튼에 의해 상태의 변화
+
+    - stateful
+        - 내용의 갱신
+        - 위젯이 특정 상태가 되면 알맞은 처리를 수행
